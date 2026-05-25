@@ -9,8 +9,8 @@ runs:
   using: "composite"
 
   steps:
-    - name: Compile Java
-      run: javac ${{iputs.file-name}}.java
+    - name: Compile Java Files
+      run: javac *.java
       shell: bash
 
     - name: Run Java
