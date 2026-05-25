@@ -31,3 +31,7 @@ jobs:
 
       - name: Run Custom Action
         uses: ./.github/actions/java-build
+        with: 
+          file-name: Main
+
+          
